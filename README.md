@@ -1,12 +1,25 @@
-# React + Vite
+# Custom Watch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site de **personnalisation de montres** : on choisit un modèle dans le catalogue, puis on compose sa montre
+en sélectionnant le boîtier, le cadran et le bracelet.
 
-Currently, two official plugins are available:
+## Fonctionnalités
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Page d'accueil et catalogue de modèles, avec une fiche détaillée pour chacun
+- Configurateur en trois étapes : boîtier, cadran, bracelet
+- Navigation entre les pages avec React Router
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React 18, Vite, Material UI, React Router.
+
+## Lancer le projet
+
+```bash
+npm install
+npm run dev
+```
+
+Puis ouvrir http://localhost:5173.
+
+Les modèles 3D de montres se trouvent dans le dépôt [models](https://github.com/Matheo2004/models).
